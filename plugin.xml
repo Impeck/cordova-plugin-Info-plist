@@ -3,18 +3,22 @@
     <name>Add values in info.plist</name>
     <author>Impeck</author>
     <description>
-      Cordova / PhoneGap Plugin add the values in info.plist
+        Cordova / PhoneGap Plugin add the values in info.plist
     </description>
     <keywords>Info.plist, ios, PhoneGap, Cordova</keywords>
     <license>MIT</license>
     <engines>
-        <engine name="cordova" version=">=3.0.0"/>
+        <engine name="cordova" version=">=3.0.0" />
     </engines>
     <platform name="ios">
-      <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
-        <array>
-          <string>fb629365447080405</string><!--online.sberbank.ru-->
-        </array>
-      </config-file>
+        <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+            <array>
+                <string>fb629365447080405</string>
+                <!--online.sberbank.ru-->
+            </array>
+        </config-file>
+        <config-file target="*-Info.plist" parent="CFBundleDevelopmentRegion">
+            <string>Russian</string>
+        </config-file>
     </platform>
 </plugin>

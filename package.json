@@ -1,0 +1,33 @@
+{
+  "name": "cordova-plugin-Info-plist",
+  "version": "0.0.1",
+  "author": "Impeck <impeck@ya.ru>",
+  "description": "Сordova / Phonegap plugin for add the values in info.plist for iOS.",
+  "cordova": {
+    "id": "cordova-plugin-Info-plist",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Impeck/cordova-plugin-Info-plist.git"
+  },
+  "keywords": [
+    "Info.plist",
+    "ios",
+    "PhoneGap",
+    "Cordova"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Impeck/cordova-plugin-Info-plist/issues"
+  },
+  "homepage": "https://github.com/Impeck/cordova-plugin-Info-plist#readme"
+}

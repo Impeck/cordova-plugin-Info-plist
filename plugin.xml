@@ -20,8 +20,7 @@
         <config-file target="*-Info.plist" parent="CFBundleDevelopmentRegion">
             <string>Russian</string>
         </config-file>
-        <config-file target="*-Info.plist" parent="UIApplicationExitsOnSuspend ">
-            <string>YES</string>
+        <config-file target="*-Info.plist" parent="UIBackgroundModes">
         </config-file>
     </platform>
 </plugin>

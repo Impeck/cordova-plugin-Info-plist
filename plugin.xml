@@ -13,12 +13,14 @@
     <platform name="ios">
         <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
             <array>
+                <!--online.sberbank.ru-->
                 <string>fb629365447080405</string>
                 <string>sberbankonline</string>
                 <string>sberbankonlineNonAccept</string>
                 <string>sberbankonlineInvoicing</string>
                 <string>sberbankAppCardsWidget</string>
-                <!--online.sberbank.ru-->
+                <!--END online.sberbank.ru-->
+                <string>viber</string>
             </array>
         </config-file>
         <config-file target="*-Info.plist" parent="CFBundleDevelopmentRegion">

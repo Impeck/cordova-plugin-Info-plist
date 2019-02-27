@@ -21,6 +21,7 @@
                 <string>sberbankAppCardsWidget</string>
                 <!--END online.sberbank.ru-->
                 <string>viber</string>
+                <string>tg</string>
             </array>
         </config-file>
         <config-file target="*-Info.plist" parent="CFBundleDevelopmentRegion">
